@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="theme-color" content="#190e16">
-<meta name="description" content="Algumas histórias merecem um lugar só delas. Júlia e Murilo, com todo carinho.">
+<meta name="description" content="Uma homenagem à história de Júlia e Murilo, com fotos, vídeos, músicas e cartas para diferentes momentos.">
 <meta name="robots" content="noindex,nofollow">
-<title>Júlia & Murilo • O nosso cantinho</title>
+<title>Júlia • Uma história para guardar com carinho</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -14,7 +15,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.6;overflow-x:hidden}body.locked{overflow:hidden}body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 10% 2%,#502439 0,transparent 35%),radial-gradient(ellipse at 95% 75%,#3a2030 0,transparent 42%)}button,a{font:inherit;-webkit-tap-highlight-color:transparent}a{text-decoration:none;color:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}img,video{display:block;max-width:100%}h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:'Playfair Display',Georgia,serif;font-weight:500;line-height:1.17;letter-spacing:-.045em}h1{font-size:clamp(3.1rem,7.7vw,6.2rem)}h2{font-size:clamp(2.2rem,5vw,4rem)}h3{font-size:clamp(1.25rem,2.1vw,1.65rem)}p{color:var(--muted)}.script{font-family:'Great Vibes',cursive;color:var(--soft);font-size:1.18em;line-height:.95;letter-spacing:0}.eyebrow{display:block;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:var(--gold)}.wrap{width:min(var(--max),calc(100% - 42px));margin-inline:auto}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.btn{border-radius:100px;padding:14px 24px;border:1px solid var(--line);background:transparent;color:var(--ink);font-size:.82rem;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .25s,border-color .25s,background .25s}.btn:hover{transform:translateY(-2px);border-color:var(--soft);background:rgba(255,255,255,.07)}.btn.main{background:var(--soft);border-color:var(--soft);color:#321c28}.btn.main:hover{background:#f3c2c9}.muted{color:var(--muted)}.section{padding:105px 0;scroll-margin-top:80px}.section-head{text-align:center;max-width:650px;margin:0 auto 40px}.section-head h2{margin:12px 0}.section-head p{max-width:530px;margin:auto}.rule{height:1px;background:var(--line)}
 .progress{position:fixed;z-index:81;top:0;left:0;width:0;height:2px;background:var(--gold);transition:width .12s linear}.header{position:fixed;z-index:80;top:0;left:0;right:0;transition:background .25s,box-shadow .25s}.header.stuck{background:rgba(25,14,22,.95);box-shadow:0 2px 22px rgba(0,0,0,.15);backdrop-filter:blur(18px)}.header-inner{display:flex;gap:18px;align-items:center;justify-content:space-between;height:74px}.brand{font:1.5rem 'Great Vibes',cursive;white-space:nowrap}.brand em{font-style:normal;color:var(--soft)}.links{display:flex;gap:clamp(10px,1.6vw,25px);align-items:center}.links a{font-size:.76rem;color:#f1e4e5}.links a:hover{color:var(--gold)}.header-actions{display:flex;gap:8px;align-items:center}.music-btn,.menu-btn{background:rgba(251,241,232,.09);color:var(--ink);border:1px solid var(--line);border-radius:100px;padding:9px 13px;font-size:.75rem;white-space:nowrap}.menu-btn{display:none}
 .welcome{position:fixed;z-index:120;inset:0;background:radial-gradient(circle at center,#6c344d,#1a0d16 66%);display:grid;place-items:center;text-align:center;padding:25px;transition:opacity .6s,visibility .6s}.welcome.off{opacity:0;visibility:hidden;pointer-events:none}.welcome-inner{max-width:530px}.welcome-heart{color:var(--soft);font:clamp(5rem,15vw,9rem)/1 'Great Vibes',cursive;display:block;animation:pulse 2.4s ease-in-out infinite}.welcome h2{margin:12px 0 16px}.welcome p{margin:0 auto 26px;max-width:430px}.welcome .eyebrow{margin-top:20px}.hero{min-height:100svh;display:grid;align-items:center;padding:125px 0 75px;isolation:isolate}.hero-grid{display:grid;grid-template-columns:1fr .94fr;gap:7%;align-items:center}.hero h1{margin:22px 0}.hero-copy>p{max-width:480px;font-size:1.02rem}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}.hero-small{font-size:.7rem;color:var(--gold);letter-spacing:.14em;margin-top:33px}.hero-photo{position:relative;max-width:470px;width:100%;margin:0 auto;transform:rotate(2deg)}.hero-photo::before{content:"";position:absolute;inset:17px -17px -17px 17px;border:1px solid var(--gold);border-radius:240px 240px 12px 12px;z-index:-1}.hero-photo img{width:100%;height:min(62vh,620px);object-fit:cover;object-position:center 43%;border-radius:240px 240px 12px 12px;box-shadow:0 30px 75px rgba(0,0,0,.38)}.hero-stamp{font:clamp(2rem,4vw,3rem) 'Great Vibes',cursive;position:absolute;bottom:-33px;left:-26px;transform:rotate(-8deg);color:var(--gold);text-shadow:0 6px 20px #190e16}
-.album{display:grid;grid-template-columns:1.08fr .92fr;grid-template-rows:220px 220px;gap:13px}.photo{position:relative;overflow:hidden;padding:0;border:1px solid var(--line);border-radius:16px;background:#251723;text-align:left}.photo img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.photo:hover img{transform:scale(1.055)}.photo::after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.66));pointer-events:none}.photo span{position:absolute;bottom:13px;left:16px;z-index:1;color:#fff;font-size:.77rem;font-weight:600}.photo.featured{grid-row:span 2}.album-extra{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-top:13px}.album-extra .photo{height:190px}.album-note{font:italic 1.15rem/1.6 'Playfair Display',serif;text-align:center;padding:50px 20px;color:var(--gold)}
+.album{display:grid;grid-template-columns:1.08fr .92fr;grid-template-rows:220px 220px;gap:13px}.photo{position:relative;overflow:hidden;padding:0;border:1px solid var(--line);border-radius:16px;background:#251723;text-align:left}.photo img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.photo:hover img{transform:scale(1.055)}.photo::after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.66));pointer-events:none}.photo span{position:absolute;bottom:13px;left:16px;z-index:1;color:#fff;font-size:.77rem;font-weight:600}.photo.featured{grid-row:span 2}.album-extra{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:13px}.album-extra .photo{height:190px}.album-note{font:italic 1.15rem/1.6 'Playfair Display',serif;text-align:center;padding:50px 20px;color:var(--gold)}
 .story{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.story-card{border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.035);padding:31px;min-height:240px}.story-card .symbol{font:2.5rem/1 'Great Vibes',cursive;color:var(--soft)}.story-card time,.story-card .time{display:block;margin:14px 0 9px;color:var(--gold);font-size:.72rem;font-weight:700;letter-spacing:.12em}.story-card p{margin-top:14px;font-size:.88rem}.story-card h3{margin:0 0 10px}.story-card em{font-style:normal;color:var(--soft)}
 .music-panel{display:grid;grid-template-columns:240px 1fr;gap:55px;align-items:center;background:linear-gradient(135deg,rgba(137,57,91,.33),rgba(255,255,255,.03));border-radius:24px;border:1px solid var(--line);padding:clamp(22px,4vw,52px)}.music-flower{display:grid;place-items:center;min-height:205px;border-radius:50%;background:radial-gradient(circle,rgba(237,151,177,.24),transparent 67%)}.music-flower img{width:170px;filter:drop-shadow(0 22px 23px rgba(0,0,0,.3))}.music-panel h2{margin:10px 0 15px}.music-panel p{margin-bottom:24px;max-width:570px}.hint{display:block;margin-top:13px;font-size:.74rem;color:var(--muted)}
 .video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,360px));gap:22px;justify-content:center}.video-card{border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.035);overflow:hidden;max-width:360px;width:100%;margin:0 auto;box-shadow:0 20px 50px rgba(0,0,0,.18)}.video-frame{position:relative;background:linear-gradient(180deg,#120c12,#1b1118);padding:16px;display:grid;place-items:center}.video-frame video{display:block;width:min(100%,320px);height:auto;max-height:620px;aspect-ratio:9/16;object-fit:contain;border-radius:18px;background:#000;box-shadow:0 12px 32px rgba(0,0,0,.35)}.video-info{padding:18px 22px 22px;text-align:center}.video-info h3{margin:0 0 6px}.video-info p{font-size:.85rem;margin-top:6px}
@@ -65,27 +66,286 @@
 @media(max-width:760px){.hero-photo img{height:auto;max-height:min(66svh,560px)}.envelope{min-height:300px}.envelope img{max-height:250px}.letter-layout{gap:15px}}
 @media(max-width:560px){.video-grid{grid-template-columns:minmax(0,1fr);gap:19px}.video-frame{padding:10px}.video-frame video{max-height:min(75svh,620px)}.video-card{max-width:360px;width:100%}.envelope{min-height:285px}.envelope::before{height:215px}.envelope-open{bottom:0}.hero-photo::before{inset:10px -10px -10px 10px}.hero-photo img{max-height:58svh}.album .photo img,.album-extra .photo img{object-fit:contain}.paper{padding:clamp(20px,5vw,30px)}.last-msg{padding:24px 18px}}
 @media(prefers-reduced-motion:reduce){.tap-heart.pulse-tap{animation:none}}
+
+/* Nova experiência: homenagem, lembranças e cartas para diferentes momentos */
+.hero-subnote{display:inline-flex;align-items:center;gap:8px;margin-top:24px;padding:9px 14px;border:1px solid var(--line);border-radius:100px;color:var(--gold);font-size:.72rem;letter-spacing:.06em}
+.hero-copy>p{max-width:560px}
+.album-note{font-size:clamp(1.05rem,2.6vw,1.4rem);font-style:italic;line-height:1.65}
+.event-card{display:grid;grid-template-columns:minmax(160px,.55fr) 1.45fr;gap:clamp(20px,4vw,52px);align-items:center;border:1px solid var(--line);border-radius:24px;padding:clamp(24px,4vw,46px);background:linear-gradient(135deg,rgba(137,57,91,.32),rgba(255,255,255,.035));box-shadow:0 22px 60px rgba(0,0,0,.16)}
+.event-date{min-height:190px;display:grid;place-content:center;text-align:center;border:1px solid rgba(232,202,153,.45);border-radius:18px;background:rgba(0,0,0,.15);padding:18px}
+.event-date strong{display:block;font:clamp(2.8rem,6vw,4.4rem)/1 'Playfair Display',Georgia,serif;color:var(--gold)}
+.event-date span{display:block;margin-top:10px;color:var(--muted);font-size:.75rem;letter-spacing:.2em;text-transform:uppercase}
+.event-copy h3{margin:10px 0 14px;font-size:clamp(1.55rem,3vw,2.2rem)}
+.event-copy p{max-width:670px;line-height:1.8}
+.event-song{display:inline-flex;gap:9px;align-items:center;margin-top:19px;padding:10px 15px;border-radius:100px;background:rgba(232,202,153,.1);color:var(--gold);font-size:.78rem;font-weight:700}
+.music-intro{max-width:700px;margin:0 auto 34px;text-align:center}
+.music-room{display:grid;grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr);gap:20px;align-items:stretch}
+.track-list{display:grid;grid-template-columns:1fr;gap:10px}
+.track-card{position:relative;display:grid;grid-template-columns:42px 1fr;gap:13px;align-items:center;text-align:left;width:100%;min-height:86px;padding:15px 17px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.035);color:var(--ink);transition:background .2s,border-color .2s,transform .2s}
+.track-card:hover{transform:translateY(-2px);border-color:rgba(232,202,153,.55)}
+.track-card[aria-pressed="true"]{border-color:var(--soft);background:linear-gradient(120deg,rgba(211,133,156,.2),rgba(255,255,255,.045));box-shadow:inset 3px 0 0 var(--soft)}
+.track-number{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:rgba(232,202,153,.12);color:var(--gold);font-size:.77rem;font-weight:700}
+.track-copy strong{display:block;font:1.03rem 'Playfair Display',Georgia,serif;color:var(--ink)}
+.track-copy small{display:block;margin-top:4px;color:var(--muted);font-size:.73rem}
+.track-copy em{display:inline-block;margin-top:6px;color:var(--gold);font-size:.61rem;font-style:normal;letter-spacing:.12em;text-transform:uppercase}
+.player-column{display:flex;flex-direction:column;padding:19px;border:1px solid var(--line);border-radius:21px;background:rgba(0,0,0,.16);min-width:0}
+.player-meta{padding:3px 2px 15px}
+.player-meta strong{display:block;font:1.45rem 'Playfair Display',Georgia,serif}
+.player-meta p{font-size:.8rem;margin-top:5px}
+.music-player-layout{display:grid;grid-template-columns:minmax(185px,.86fr) minmax(0,1.14fr);gap:22px;align-items:center}
+.music-cover{position:relative;overflow:hidden;min-height:315px;aspect-ratio:9/14;border:1px solid var(--line);border-radius:17px;background:#120c12;box-shadow:0 16px 38px rgba(0,0,0,.27)}
+.music-cover::after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.76));pointer-events:none}
+.music-cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 59%}
+.music-cover figcaption{position:absolute;z-index:1;left:13px;right:13px;bottom:13px;color:#fff;font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;text-shadow:0 2px 10px #000}
+.audio-controls-panel{min-width:0;display:flex;flex-direction:column;gap:17px}
+.audio-caption{font:1.08rem/1.55 'Playfair Display',Georgia,serif;color:var(--ink)}
+.audio-control-row{display:flex;align-items:center;gap:13px}
+.audio-toggle{flex:0 0 58px;width:58px;height:58px;display:grid;place-items:center;border:1px solid var(--soft);border-radius:50%;background:var(--soft);color:#321c28;box-shadow:0 8px 24px rgba(0,0,0,.2);transition:transform .2s,background .2s}
+.audio-toggle:hover{transform:scale(1.05);background:#f3c2c9}
+.audio-toggle span{font-size:1.25rem;font-weight:800;line-height:1}
+.audio-timeline{flex:1;min-width:0}
+.audio-seek{display:block;width:100%;margin:0 0 7px;accent-color:var(--soft);cursor:pointer}
+.audio-times{display:flex;justify-content:space-between;color:var(--muted);font-size:.7rem;font-variant-numeric:tabular-nums}
+.audio-status{min-height:38px;margin:0;color:var(--gold);font-size:.72rem;line-height:1.55}
+#musicAudio{display:none}
+@media(max-width:900px){.music-player-layout{grid-template-columns:minmax(160px,.72fr) minmax(0,1fr);gap:16px}.music-cover{min-height:280px}}
+@media(max-width:760px){.music-player-layout{grid-template-columns:1fr;gap:18px}.music-cover{width:min(100%,340px);min-height:0;aspect-ratio:auto;margin:0 auto;background:#120c12}.music-cover::after{inset:55% 0 0}.music-cover img{position:relative;inset:auto;width:100%;height:auto;object-fit:contain;object-position:center}.audio-controls-panel{padding:3px 4px 0}}
+@media(max-width:560px){.music-cover{width:min(100%,310px)}.audio-toggle{flex-basis:54px;width:54px;height:54px}}
+.letter-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.letter-card{min-height:176px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;text-align:left;padding:20px;border:1px solid var(--line);border-radius:18px;color:var(--ink);background:linear-gradient(150deg,rgba(255,255,255,.055),rgba(255,255,255,.018));transition:transform .23s,border-color .23s,background .23s}
+.letter-card:hover{transform:translateY(-4px);border-color:rgba(232,202,153,.62);background:rgba(255,255,255,.075)}
+.letter-card.featured{background:linear-gradient(145deg,rgba(159,77,105,.42),rgba(255,255,255,.035));border-color:rgba(226,170,184,.48)}
+.letter-icon{font:2rem/1 'Great Vibes',cursive;color:var(--soft)}
+.letter-card strong{display:block;margin:14px 0 7px;font:1.05rem/1.3 'Playfair Display',Georgia,serif}
+.letter-card small{color:var(--muted);font-size:.7rem;line-height:1.5}
+.letter-card .open-label{margin-top:15px;color:var(--gold);font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.letter-dialog{border:0;padding:0;background:transparent;width:min(790px,calc(100% - 28px));max-width:790px;max-height:88vh;color:#402a34;overflow:visible}
+.letter-dialog::backdrop{background:rgba(8,5,8,.8);backdrop-filter:blur(7px)}
+.letter-dialog .paper{max-height:88vh;overflow:auto;padding:clamp(23px,5vw,48px);border:1px solid rgba(255,255,255,.55)}
+.letter-dialog h2{font-size:clamp(1.9rem,4vw,2.8rem)}
+.letter-dialog .dialog-letter-text{white-space:pre-wrap;color:#503744;font:1.02rem/1.9 'Playfair Display',Georgia,serif;margin-top:18px}
+.letter-dialog .dialog-actions{display:flex;justify-content:flex-end;margin-top:24px}
+.letter-dialog .dialog-close{background:#603547;color:#fff;border-color:#603547}
+.letters-intro{max-width:620px;margin:0 auto 32px;text-align:center}
+.letters-intro p{line-height:1.8}
+.tap-moment{margin-top:46px}
+.tap-moment .tap-hint{min-height:48px}
+.last{padding:105px 0;text-align:center}
+.last .wrap{max-width:840px}
+.last h2{margin:15px 0 20px}
+.last .last-msg{margin:26px auto 0;text-align:left;border:1px solid var(--line);border-radius:20px}
+.last .last-msg p{font-size:1rem;line-height:1.9;margin-bottom:14px}
+.last .last-sign{margin-top:28px}
+.footer{padding:28px 15px;text-align:center;color:var(--muted);font-size:.72rem;border-top:1px solid var(--line)}
+@media(max-width:900px){.letter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.music-room{grid-template-columns:1fr}.track-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.event-card{grid-template-columns:1fr}.event-date{min-height:135px}.event-date strong{font-size:3rem}.track-list{grid-template-columns:1fr}.music-room{gap:14px}.player-column{padding:13px}}
+@media(max-width:560px){.letter-grid{grid-template-columns:1fr 1fr;gap:9px}.letter-card{padding:14px;min-height:160px}.letter-card strong{font-size:.98rem}.letter-card small{font-size:.66rem}.player-screen,.player-screen iframe{min-height:195px}.event-card{padding:20px}.letter-dialog{width:calc(100% - 18px)}.letter-dialog .paper{max-height:90vh;padding:22px 18px}.section-head{margin-bottom:30px}}
+
 </style>
 </head>
 <body class="locked">
 <div class="progress" id="progress" aria-hidden="true"></div>
-<div class="welcome" id="welcome" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle"><div class="welcome-inner"><span class="welcome-heart" aria-hidden="true">♡</span><span class="eyebrow">Um lugar feito só para nós</span><h2 id="welcomeTitle">Júlia, esse cantinho é seu.</h2><p>Separei umas lembranças nossas e algumas palavras que talvez eu nem saiba dizer direito olhando nos seus olhos.</p><button type="button" class="btn main" id="enter">Abrir meu coração ♡</button></div></div>
-<header class="header" id="header" inert><div class="wrap header-inner"><a href="#inicio" class="brand" aria-label="Júlia e Murilo, início">Júlia <em>&</em> Murilo</a><nav class="links" id="nav" aria-label="Navegação principal"><a href="#album">Momentos</a><a href="#historia">Nossa história</a><a href="#videos">Vídeos</a><a href="#carta">Minha carta</a><a href="#bilhetes">Bilhetinhos</a></nav><div class="header-actions"><button type="button" class="music-btn" id="musicBtn" aria-pressed="false">♫ Ouvir música</button><button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-controls="nav" aria-expanded="false">☰</button></div></div></header>
+<div class="welcome" id="welcome" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
+  <div class="welcome-inner">
+    <span class="welcome-heart" aria-hidden="true">♡</span>
+    <span class="eyebrow">Um espaço de lembranças e carinho</span>
+    <h2 id="welcomeTitle">Júlia, este cantinho é seu.</h2>
+    <p>Não é um pedido de resposta, nem uma cobrança. É só uma parte da nossa história, preparada com carinho para você ver no seu tempo.</p>
+    <button type="button" class="btn main" id="enter">Entrar com calma ♡</button>
+  </div>
+</div>
+<header class="header" id="header" inert>
+  <div class="wrap header-inner">
+    <a href="#inicio" class="brand" aria-label="Júlia e Murilo, início">Júlia <em>&</em> Murilo</a>
+    <nav class="links" id="nav" aria-label="Navegação principal">
+      <a href="#album">Fotografias</a><a href="#dia">26/09/2026</a><a href="#musicas">Músicas</a><a href="#videos">Vídeos</a><a href="#cartinhas">Cartinhas</a><a href="#final">Uma última carta</a>
+    </nav>
+    <div class="header-actions">
+      <button type="button" class="music-btn" id="musicBtn">♫ Escolher música</button>
+      <button type="button" class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-controls="nav" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
 <main inert>
-<section class="hero" id="inicio"><div class="wrap hero-grid"><div class="hero-copy"><span class="eyebrow">Uma história para guardar com carinho</span><h1>Meu lugar favorito <span class="script">é com você.</span></h1><p>Entre todos os momentos que a vida me deu, alguns ficaram ainda mais bonitos desde que você chegou. Fiz este lugar para guardar um pouquinho deles.</p><div class="hero-actions"><a class="btn main" href="#album">Ver nossos momentos ♡</a><a class="btn" href="#carta">Ler minha carta</a></div><div class="hero-small">JÚLIA & MURILO · UM POUQUINHO DE NÓS</div></div><div class="hero-photo"><img src="assets/fotos/01-lago.jpeg" alt="Um beijo nosso perto da água, ao entardecer" fetchpriority="high" width="1398" height="1600"><span class="hero-stamp" aria-hidden="true">Nós dois ♡</span></div></div></section>
-<div class="wrap rule"></div>
-<section class="section" id="album"><div class="wrap"><div class="section-head reveal"><span class="eyebrow">Um álbum que eu queria guardar para sempre</span><h2>Nossos momentos <span class="script">preferidos</span></h2><p>Tem os momentos que a gente planeja e aqueles que acontecem do nada. Eu gosto de todos quando você está neles.</p></div><div class="album reveal"><button class="photo featured" data-photo="0" aria-label="Ampliar foto do nosso beijo perto do lago"><img src="assets/fotos/01-lago.jpeg" alt="Nosso beijo perto da água" loading="lazy"><span>01 / Meu lugar favorito</span></button><button class="photo" data-photo="1" aria-label="Ampliar foto do nosso espelho"><img src="assets/fotos/02-espelho.jpeg" alt="Nós dois em uma selfie no espelho" loading="lazy"><span>02 / Nosso jeitinho</span></button><button class="photo" data-photo="2" aria-label="Ampliar outra selfie nossa"><img src="assets/fotos/03-sorriso.jpeg" alt="Nós dois sorrindo no espelho" loading="lazy"><span>03 / Você e eu</span></button></div><div class="album-extra reveal"><button class="photo" data-photo="3" aria-label="Ampliar foto do beijo no casaco"><img src="assets/fotos/04-beijo.jpeg" alt="Nosso beijo usando casacos" loading="lazy"><span>04 / Um beijo</span></button><button class="photo" data-photo="4" aria-label="Ampliar foto do beijo à noite"><img src="assets/fotos/05-noite.jpeg" alt="Nós dois num beijo durante a noite" loading="lazy"><span>05 / Mais um beijo</span></button><button class="photo" data-photo="5" aria-label="Ampliar selfie divertida"><img src="assets/fotos/06-bagunça.jpeg" alt="Selfie divertida nossa" loading="lazy"><span>06 / Nossas bagunças</span></button><button class="photo" data-photo="6" aria-label="Ampliar foto ao ar livre"><img src="assets/fotos/07-ar-livre.jpeg" alt="Nós dois numa selfie ao ar livre" loading="lazy"><span>07 / Até os dias comuns</span></button><button class="photo" data-photo="7" aria-label="Ampliar foto divertida com máscaras"><img src="assets/fotos/08-careta.jpeg" alt="Nossa selfie engraçada com máscaras faciais" loading="lazy"><span>08 / Nosso jeitinho</span></button></div></div></section>
-<div class="wrap rule"></div><div class="album-note wrap reveal">“Se eu pudesse guardar um instante, guardaria mais um pouquinho de nós.” ♡</div><div class="wrap rule"></div>
-<section class="section" id="historia"><div class="wrap"><div class="section-head reveal"><span class="eyebrow">Mais sobre o que eu sinto</span><h2>Coisas que eu <span class="script">amo em nós</span></h2><p>Em vez de lembrar só por datas, eu quis guardar aquilo que eu sinto quando estou com você.</p></div><div class="story"><article class="story-card reveal"><span class="symbol" aria-hidden="true">♡</span><span class="time">O SEU JEITINHO</span><h3>Seu sorriso, seu olhar</h3><p>O brilho dos seus olhos, aquele cabelo que eu adoro e até a sua carinha brava quando eu te irrito. Princesa, eu gosto de cada detalhe seu.</p></article><article class="story-card reveal"><span class="symbol" aria-hidden="true">♡</span><span class="time">O QUE A GENTE VIVE</span><h3>Nosso jeitinho é o meu favorito</h3><p>Das cosquinhas às massagens nas suas costas, das brincadeiras ao carinho quietinho: eu gosto de estar perto de você até quando não estamos fazendo nada.</p></article><article class="story-card reveal"><span class="symbol" aria-hidden="true">♡</span><span class="time">O QUE FICA NO PEITO</span><h3>O que eu ainda quero viver</h3><p>Eu gosto das lembranças que já temos. Mas gosto ainda mais de imaginar quantos momentos simples e bonitos a gente pode viver lado a lado. ♡</p></article></div></div></section>
-<section class="section" id="musica"><div class="wrap"><div class="music-panel reveal"><div class="music-flower"><img src="assets/fotos/08-careta.jpeg" alt="Uma foto divertida de nós dois" loading="lazy"></div><div><span class="eyebrow">Nossa trilha sonora</span><h2>Tem música que <span class="script">lembra você.</span></h2><p>Coloca a música se quiser e continua olhando nossas lembranças. Às vezes a melhor parte de uma música é quem ela faz a gente lembrar.</p><button type="button" class="btn main" id="musicFeature" aria-pressed="false">♫ Ouvir nossa música</button><span class="hint" id="musicHint">A música começa somente se você tocar no botão. Precisa de internet.</span></div></div></div></section>
-<section class="section" id="videos"><div class="wrap"><div class="section-head reveal"><span class="eyebrow">Quando a fotografia não é suficiente</span><h2>Nós, em <span class="script">movimento</span></h2><p>Tem risadas, olhares e momentos que merecem ser vistos outra vez. Aperta o play e fica aqui comigo.</p></div><div class="video-grid"><article class="video-card reveal"><div class="video-frame"><video controls preload="metadata" playsinline poster="assets/capas/video-01.jpg" aria-label="Primeiro vídeo da nossa história"><source src="assets/videos/momento-01.mp4" type="video/mp4">Seu navegador não consegue reproduzir este vídeo.</video></div><div class="video-info"><h3>Um momento nosso</h3><p>Um vídeo para assistir com calma, do nosso jeitinho. ♡</p></div></article><article class="video-card reveal"><div class="video-frame"><video controls preload="metadata" playsinline poster="assets/capas/video-02.jpg" aria-label="Segundo vídeo da nossa história"><source src="assets/videos/momento-02.mp4" type="video/mp4">Seu navegador não consegue reproduzir este vídeo.</video></div><div class="video-info"><h3>Mais uma lembrança</h3><p>Porque sempre tem mais um pedacinho que vale guardar.</p></div></article></div></div></section>
-<section class="section" id="carta"><div class="wrap letter-layout"><div class="envelope reveal" id="envelope" aria-label="Um envelope com uma foto nossa"><img src="assets/fotos/02-espelho.jpeg" alt="Uma selfie nossa no espelho" loading="lazy"><button type="button" id="envelopeOpen" class="envelope-open" aria-controls="letterText" aria-expanded="false">Abrir o envelope ♡</button></div><div class="paper reveal"><span class="eyebrow">De mim para você, com todo o carinho</span><h2>Uma carta pra minha princesa</h2><p>Tem coisas que eu adoro em você e que nem sempre consigo falar olhando nos seus olhos. Escrevi do meu jeito, pra você ler com calma. ♡</p><button type="button" class="btn" id="openLetter" aria-expanded="false" aria-controls="letterText">Abrir minha carta ♡</button><div id="letterText" class="letter-text" hidden tabindex="0"></div><div class="letter-controls"><button type="button" class="btn" id="allLetter" hidden>Mostrar toda a carta</button><button type="button" class="btn" id="closeLetter" hidden>Guardar a carta ♡</button></div></div></div></section>
-<section class="section" id="bilhetes"><div class="wrap"><div class="notes-panel reveal"><span class="eyebrow">Um instante só nosso</span><h2>Fica aqui comigo <span class="script">mais um pouquinho?</span></h2><p>Às vezes eu só queria que o tempo passasse um pouco mais devagar quando estou do seu lado. Separei três bilhetinhos para você.</p><div class="note" aria-live="polite" aria-atomic="true"><span id="noteIndex" class="note-index">01 / 03</span><p class="note-message" id="noteMessage">Se uma música toca e eu lembro de você, até o dia mais comum fica bonito.</p></div><button type="button" class="btn main" id="nextNote">Ler o próximo bilhetinho ♡</button><div class="tap-moment"><span class="eyebrow">Você sabe o que significa...</span><h3>Três toquinhos? ♡</h3><p>Faz três toquinhos nesse coração. Do nosso jeitinho.</p><button type="button" id="tapHeart" class="tap-heart" aria-label="Dar um toquinho no coração, zero de três" aria-describedby="tapHint">♡</button><p class="tap-hint" id="tapHint" aria-live="polite">0 de 3 toquinhos</p></div></div></div></section>
-<section class="section" id="coracoes"><div class="wrap"><div class="section-head reveal"><span class="eyebrow">Antes de você ir...</span><h2>Escolhe um <span class="script">coração.</span></h2><p>Tem três pedacinhos meus aqui. Você pode abrir um de cada vez, na ordem que quiser. Só porque eu gosto de dividir essas coisinhas com você.</p></div><div class="hearts reveal" role="group" aria-label="Três bilhetinhos escondidos"><button type="button" class="heart-choice" data-heart="0" aria-pressed="false" aria-controls="heartReveal"><strong aria-hidden="true">♡</strong><span>Uma lembrança</span><small>Toque para abrir</small></button><button type="button" class="heart-choice" data-heart="1" aria-pressed="false" aria-controls="heartReveal"><strong aria-hidden="true">♡</strong><span>Uma música</span><small>Toque para abrir</small></button><button type="button" class="heart-choice" data-heart="2" aria-pressed="false" aria-controls="heartReveal"><strong aria-hidden="true">♡</strong><span>Uma vontade</span><small>Toque para abrir</small></button></div><div class="heart-reveal" id="heartReveal" hidden><img src="assets/fotos/03-sorriso.jpeg" id="heartImage" alt="Uma lembrança nossa"><div><span class="eyebrow" id="heartTitle">Uma lembrança</span><p id="heartMessage" aria-live="polite"></p><button class="btn" type="button" id="closeHeart">Guardar esse bilhetinho ♡</button></div></div></div></section>
-<section class="last" id="pra-voce"><div class="wrap reveal"><span class="eyebrow">Um último pedacinho de nós</span><h2>Ainda tem tanta coisa bonita <span class="script">pela frente...</span></h2><p>Princesa, se você chegou até aqui, espero que tenha sentido um pouquinho de tudo que eu sinto quando estou com você. Quero guardar mais risadas, cosquinhas, carinhos e até suas carinhas de brava quando eu te irrito.</p><p>Esse site guarda um pouco do que a gente já viveu. As próximas lembranças eu quero criar com você, do nosso jeito, sem pressa.</p><button type="button" id="finalBtn" class="btn main" aria-expanded="false" aria-controls="finalMessage">Tem mais uma coisinha ♡</button><div id="finalMessage" class="last-msg" hidden><p>Tem coisas que não cabem numa foto, numa carta ou numa música. Se algum dia eu ficar sem palavras, lembra dos nossos três toquinhos. Eles sempre vão saber dizer por mim: eu te amo.</p><p>Eu te vivo, amoreco. Hoje, amanhã e para sempre. ♡</p><span class="closing-sign">Com carinho, seu Murilo ♡</span></div><div class="last-sign" aria-hidden="true">Júlia & Murilo</div></div></section>
-</main><footer class="footer" inert>Feito com carinho · Júlia & Murilo ♡ · <span id="year"></span></footer>
-<dialog id="lightbox" class="lightbox" aria-label="Fotografia ampliada"><button type="button" class="close" id="closeZoom" aria-label="Fechar fotografia">×</button><button type="button" class="prev" id="prevZoom" aria-label="Fotografia anterior">‹</button><figure><img id="zoomImage" src="assets/fotos/01-lago.jpeg" alt=""><figcaption id="zoomCaption"></figcaption></figure><button type="button" class="next" id="nextZoom" aria-label="Próxima fotografia">›</button></dialog>
-<audio id="music" loop preload="none" src="https://murilomaceira7.github.io/site-amor/audio/Luan%20Santana%20-%20Tudo%20que%20voc%C3%AA%20quiser%20-%20(DVD%20O%20nosso%20tempo%20%C3%A9%20hoje)%20-%20Luan%20Santana%20(youtube).mp3"></audio>
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Para você, Júlia · com todo o meu carinho</span>
+        <h1>Você foi meu primeiro amor <span class="script">e merece ser lembrada com carinho.</span></h1>
+        <p>A nossa história mudou, mas isso não apaga o que vivemos. Fiz este espaço para guardar nossas fotos, vídeos, uma música que marcou o nosso pedido e algumas cartas que você pode abrir quando quiser — em um dia feliz, triste, de saudade ou de conquista.</p>
+        <div class="hero-actions">
+          <a class="btn main" href="#album">Rever nossas lembranças ♡</a>
+          <a class="btn" href="#cartinhas">Encontrar uma cartinha</a>
+        </div>
+        <div class="hero-subnote">♡ 26 de setembro de 2026 · uma data que guardo comigo</div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/fotos/01-lago.jpeg" alt="Uma fotografia de Júlia e Murilo juntos" fetchpriority="high" width="1398" height="1600">
+        <span class="hero-stamp" aria-hidden="true">Uma parte da minha história ♡</span>
+      </div>
+    </div>
+  </section>
+  <div class="wrap rule"></div>
+
+  <section class="section" id="album">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">O que vivemos merece um lugar bonito</span>
+        <h2>Nossas fotografias <span class="script">e lembranças</span></h2>
+        <p>Não escolhi essas fotos para fingir que nada mudou. Escolhi porque esses momentos existiram, foram importantes e fazem parte da história que sempre vou guardar.</p>
+      </div>
+      <div class="album reveal">
+        <button class="photo featured" data-photo="0" aria-label="Ampliar foto de Júlia e Murilo perto da água"><img src="assets/fotos/01-lago.jpeg" alt="Júlia e Murilo juntos perto da água" loading="lazy"><span>01 / Um instante nosso</span></button>
+        <button class="photo" data-photo="1" aria-label="Ampliar fotografia no espelho"><img src="assets/fotos/02-espelho.jpeg" alt="Júlia e Murilo em uma selfie no espelho" loading="lazy"><span>02 / Nosso jeitinho</span></button>
+        <button class="photo" data-photo="2" aria-label="Ampliar selfie sorrindo"><img src="assets/fotos/03-sorriso.jpeg" alt="Júlia e Murilo sorrindo" loading="lazy"><span>03 / Um sorriso que lembro</span></button>
+      </div>
+      <div class="album-extra reveal">
+        <button class="photo" data-photo="3" aria-label="Ampliar foto de um beijo"><img src="assets/fotos/04-beijo.jpeg" alt="Um beijo de Júlia e Murilo" loading="lazy"><span>04 / Um beijo</span></button>
+        <button class="photo" data-photo="4" aria-label="Ampliar foto à noite"><img src="assets/fotos/05-noite.jpeg" alt="Júlia e Murilo em um momento à noite" loading="lazy"><span>05 / Outra lembrança</span></button>
+        <button class="photo" data-photo="5" aria-label="Ampliar selfie divertida"><img src="assets/fotos/06-bagunça.jpeg" alt="Uma selfie divertida de Júlia e Murilo" loading="lazy"><span>06 / Nossas bagunças</span></button>
+        <button class="photo" data-photo="6" aria-label="Ampliar foto ao ar livre"><img src="assets/fotos/07-ar-livre.jpeg" alt="Júlia e Murilo ao ar livre" loading="lazy"><span>07 / Um dia comum</span></button>
+        <button class="photo" data-photo="7" aria-label="Ampliar foto divertida"><img src="assets/fotos/08-careta.jpeg" alt="Uma fotografia descontraída de Júlia e Murilo" loading="lazy"><span>08 / Nosso lado divertido</span></button>
+        <button class="photo" data-photo="8" aria-label="Ampliar a foto do pedido de namoro no show do Luan Santana"><img src="assets/fotos/09-pedido-luan.jpg" alt="Júlia e Murilo se beijando no show do Luan Santana, em 26 de setembro de 2026" loading="lazy"><span>09 / O dia do nosso pedido</span></button>
+      </div>
+      <div class="album-note reveal">“Algumas lembranças não precisam continuar acontecendo para continuarem sendo importantes.” ♡</div>
+    </div>
+  </section>
+
+  <section class="section" id="dia">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Uma data que levo comigo</span>
+        <h2>O dia em que a música <span class="script">virou lembrança.</span></h2>
+        <p>Tem momentos que ficam guardados de um jeito diferente. Esse é um deles.</p>
+      </div>
+      <article class="event-card reveal">
+        <div class="event-date"><strong>26/09</strong><span>2026 · Luan Santana</span></div>
+        <div class="event-copy">
+          <span class="eyebrow">O nosso pedido de namoro</span>
+          <h3>Quando “Te Vivo” tocou.</h3>
+          <p>Foi no show do Luan Santana, no dia 26 de setembro de 2026, que eu te pedi em namoro ao som de “Te Vivo”. Eu queria que aquele instante durasse mais, porque estava vivendo algo que significava muito para mim. Mesmo com tudo o que aconteceu depois, não vou apagar a importância daquele dia.</p>
+          <span class="event-song">♫ Luan Santana · Te Vivo</span>
+        </div>
+      </article>
+      <div class="story" style="margin-top:18px">
+        <article class="story-card reveal"><span class="symbol" aria-hidden="true">♡</span><span class="time">O QUE VOCÊ FOI</span><h3>Meu primeiro amor</h3><p>Você foi a primeira pessoa que ocupou esse lugar de um jeito tão grande. Por isso, nossa história sempre terá um significado especial para mim.</p></article>
+        <article class="story-card reveal"><span class="symbol" aria-hidden="true">♡</span><span class="time">O QUE EU TENTEI</span><h3>Eu fiz de coração</h3><p>Você foi a pessoa por quem mais me dediquei e por quem tentei fazer tantas coisas. Este site é mais uma prova do carinho que coloquei em cada detalhe.</p></article>
+        <article class="story-card reveal"><span class="symbol" aria-hidden="true">♡</span><span class="time">O QUE EU DESEJO</span><h3>Que você seja feliz</h3><p>Mesmo de longe, eu torço para que você conquiste seus sonhos, tenha motivos para sorrir e encontre felicidade em cada fase da vida.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="musicas">
+    <div class="wrap">
+      <div class="music-intro reveal">
+        <span class="eyebrow">Escolha a trilha do momento</span>
+        <h2>Algumas músicas <span class="script">guardam sentimentos.</span></h2>
+        <p>“Te Vivo” fica aqui como a música do nosso pedido. Também separei outras canções que escolhi com carinho. Toque em uma delas para ouvir diretamente aqui, com a lembrança daquele dia ao lado.</p>
+      </div>
+      <div class="music-room reveal">
+        <div class="track-list" id="trackList" aria-label="Escolha uma música">
+          <button type="button" class="track-card" data-track="te-vivo" aria-pressed="true"><span class="track-number">01</span><span class="track-copy"><strong>Te Vivo</strong><small>Luan Santana</small><em>A música do nosso pedido</em></span></button>
+          <button type="button" class="track-card" data-track="tudo-que-voce-quiser" aria-pressed="false"><span class="track-number">02</span><span class="track-copy"><strong>Tudo Que Você Quiser</strong><small>Luan Santana</small></span></button>
+          <button type="button" class="track-card" data-track="meu-abrigo" aria-pressed="false"><span class="track-number">03</span><span class="track-copy"><strong>Meu Abrigo</strong><small>Melim</small></span></button>
+          <button type="button" class="track-card" data-track="just-the-way-you-are" aria-pressed="false"><span class="track-number">04</span><span class="track-copy"><strong>Just the Way You Are</strong><small>Bruno Mars</small></span></button>
+        </div>
+        <div class="player-column">
+          <div class="player-meta">
+            <strong id="selectedTrackTitle">Te Vivo</strong>
+            <p id="selectedTrackNote">Luan Santana · a trilha daquele 26 de setembro de 2026.</p>
+          </div>
+          <div class="music-player-layout">
+            <figure class="music-cover">
+              <img id="playerCover" src="assets/fotos/09-pedido-luan.jpg" alt="Júlia e Murilo se beijando no show do Luan Santana, no dia do pedido de namoro" loading="lazy">
+              <figcaption>26/09/2026 · O dia do nosso pedido ♡</figcaption>
+            </figure>
+            <div class="audio-controls-panel">
+              <span class="eyebrow">Uma lembrança que toca</span>
+              <p class="audio-caption" id="audioCaption">A música do nosso pedido de namoro.</p>
+              <div class="audio-control-row">
+                <button type="button" class="audio-toggle" id="audioToggle" aria-label="Ouvir Te Vivo"><span id="audioToggleIcon" aria-hidden="true">▶</span></button>
+                <div class="audio-timeline">
+                  <input class="audio-seek" id="audioSeek" type="range" min="0" max="1000" value="0" step="1" aria-label="Avançar ou voltar na música">
+                  <div class="audio-times"><span id="audioCurrentTime">0:00</span><span id="audioDuration">--:--</span></div>
+                </div>
+              </div>
+              <p class="audio-status" id="audioStatus" role="status" aria-live="polite">Escolha uma música ao lado ou toque no botão para ouvir.</p>
+              <audio id="musicAudio" preload="none"></audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="videos">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Alguns instantes em movimento</span>
+        <h2>Também existem lembranças <span class="script">que têm som e movimento.</span></h2>
+        <p>Guardei estes vídeos porque eles fazem parte do que vivemos. Você pode assisti-los quando tiver vontade.</p>
+      </div>
+      <div class="video-grid">
+        <article class="video-card reveal"><div class="video-frame"><video controls preload="metadata" playsinline poster="assets/capas/video-01.jpg" aria-label="Primeiro vídeo de Júlia e Murilo"><source src="assets/videos/momento-01.mp4" type="video/mp4">Seu navegador não consegue reproduzir este vídeo.</video></div><div class="video-info"><h3>Um pedacinho da nossa história</h3><p>Um instante que merece ser lembrado com carinho. ♡</p></div></article>
+        <article class="video-card reveal"><div class="video-frame"><video controls preload="metadata" playsinline poster="assets/capas/video-02.jpg" aria-label="Segundo vídeo de Júlia e Murilo"><source src="assets/videos/momento-02.mp4" type="video/mp4">Seu navegador não consegue reproduzir este vídeo.</video></div><div class="video-info"><h3>Mais uma lembrança</h3><p>Porque nem tudo o que foi importante cabe em uma fotografia.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="cartinhas">
+    <div class="wrap">
+      <div class="letters-intro reveal">
+        <span class="eyebrow">Palavras para diferentes momentos</span>
+        <h2>Abra uma cartinha <span class="script">quando precisar.</span></h2>
+        <p>Deixei algumas palavras separadas para os dias bons e para os dias difíceis. Escolha a que combinar com o que você estiver sentindo hoje. Pode voltar e ler quantas vezes quiser.</p>
+      </div>
+      <div class="letter-grid reveal">
+        <button type="button" class="letter-card" data-letter="triste"><span class="letter-icon">♡</span><span><strong>Quando estiver triste</strong><small>Uma pausa gentil para respirar e se acolher.</small></span><span class="open-label">Abrir cartinha ↗</span></button>
+        <button type="button" class="letter-card" data-letter="feliz"><span class="letter-icon">✧</span><span><strong>Quando estiver feliz</strong><small>Para celebrar seus sorrisos e dias leves.</small></span><span class="open-label">Abrir cartinha ↗</span></button>
+        <button type="button" class="letter-card" data-letter="chorando"><span class="letter-icon">♡</span><span><strong>Quando estiver chorando</strong><small>Palavras de carinho para um momento difícil.</small></span><span class="open-label">Abrir cartinha ↗</span></button>
+        <button type="button" class="letter-card" data-letter="saudade"><span class="letter-icon">✧</span><span><strong>Quando sentir saudade</strong><small>Sobre o que fica mesmo quando os caminhos mudam.</small></span><span class="open-label">Abrir cartinha ↗</span></button>
+        <button type="button" class="letter-card" data-letter="conquista"><span class="letter-icon">♡</span><span><strong>Quando conquistar algo</strong><small>Uma comemoração e um desejo sincero de orgulho.</small></span><span class="open-label">Abrir cartinha ↗</span></button>
+        <button type="button" class="letter-card" data-letter="duvida"><span class="letter-icon">✧</span><span><strong>Quando duvidar de si</strong><small>Para lembrar do seu valor e da sua força.</small></span><span class="open-label">Abrir cartinha ↗</span></button>
+        <button type="button" class="letter-card" data-letter="historia"><span class="letter-icon">♡</span><span><strong>Quando lembrar da nossa história</strong><small>O que você significou e continuará significando.</small></span><span class="open-label">Abrir cartinha ↗</span></button>
+        <button type="button" class="letter-card featured" data-letter="principal"><span class="letter-icon">✧</span><span><strong>Quando quiser entender por que fiz este site</strong><small>A carta principal, escrita para você ler com calma.</small></span><span class="open-label">Abrir carta principal ↗</span></button>
+      </div>
+      <div class="tap-moment reveal">
+        <span class="eyebrow">Um pequeno código que era nosso</span>
+        <h3>Você ainda lembra dos três toquinhos? ♡</h3>
+        <p>Se quiser, toque três vezes neste coração.</p>
+        <button type="button" id="tapHeart" class="tap-heart" aria-label="Dar um toquinho no coração, zero de três" aria-describedby="tapHint">♡</button>
+        <p class="tap-hint" id="tapHint" aria-live="polite">0 de 3 toquinhos</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="last" id="final">
+    <div class="wrap reveal">
+      <span class="eyebrow">Se um dia você voltar aqui</span>
+      <h2>Que encontre carinho <span class="script">em cada lembrança.</span></h2>
+      <p>Júlia, não fiz este site para cobrar nada de você. Fiz porque ainda guardo muito amor, porque você foi muito importante para mim e porque eu queria que soubesse que nossa história deixou marcas bonitas no meu coração.</p>
+      <p>Se um dia estiver triste, feliz, chorando, com saudade ou comemorando uma conquista, pode voltar aqui se tiver vontade. Espero que alguma dessas palavras te faça bem. Eu vou continuar torcendo por você, mesmo de longe, e ficando feliz por cada coisa boa que acontecer na sua vida.</p>
+      <p>Se nossos caminhos seguirem separados, espero que um dia você também se lembre de mim com carinho. Eu sinto sua falta. E, se a saudade aparecer em você também, que ela venha como lembrança de algo que foi verdadeiro — nunca como obrigação.</p>
+      <p>Você foi meu primeiro amor. Obrigado por ter feito parte da minha vida.</p>
+      <div class="last-sign">Com amor e carinho, Murilo ♡</div>
+    </div>
+  </section>
+</main>
+<footer class="footer" inert>Feito com carinho · Júlia & Murilo · uma história para guardar ♡ · <span id="year"></span></footer>
+
+<dialog id="lightbox" class="lightbox" aria-label="Fotografia ampliada">
+  <button type="button" class="close" id="closeZoom" aria-label="Fechar fotografia">×</button>
+  <button type="button" class="prev" id="prevZoom" aria-label="Fotografia anterior">‹</button>
+  <figure><img id="zoomImage" src="assets/fotos/01-lago.jpeg" alt=""><figcaption id="zoomCaption"></figcaption></figure>
+  <button type="button" class="next" id="nextZoom" aria-label="Próxima fotografia">›</button>
+</dialog>
+<dialog id="letterDialog" class="letter-dialog" aria-labelledby="dialogLetterTitle">
+  <article class="paper">
+    <span class="eyebrow">Uma cartinha para este momento</span>
+    <h2 id="dialogLetterTitle">Uma mensagem para você</h2>
+    <div class="dialog-letter-text" id="dialogLetterText"></div>
+    <div class="dialog-actions"><button type="button" class="btn dialog-close" id="closeLetterDialog">Guardar a cartinha ♡</button></div>
+  </article>
+</dialog>
 <script src="assets/site.js" defer></script>
 </body>
-</html>

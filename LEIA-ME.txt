@@ -1,0 +1,30 @@
+SITE AMOR — VERSÃO DE HOMENAGEM COM PLAYER MUSICAL
+
+Conteúdo
+- index.html: página principal.
+- assets/fotos: as 8 fotografias originais e a foto do pedido de namoro em 26/09/2026.
+- assets/videos: os 2 vídeos que já estavam no projeto.
+- assets/musicas: os 4 arquivos MP3 enviados para esta versão.
+- assets/site.js: interações da galeria, player musical e cartinhas.
+
+O que mudou
+- A página reconhece que a relação terminou, sem fingir que vocês continuam juntos.
+- A lembrança do pedido de namoro em 26/09/2026, no show do Luan Santana, ganhou destaque.
+- A foto enviada do pedido aparece ao lado do player musical e também no álbum de fotografias.
+- As quatro músicas enviadas foram colocadas no seletor: “Te Vivo”, “Tudo Que Você Quiser”, “Meu Abrigo” e “Just the Way You Are”.
+- A música toca diretamente dentro do site, com play/pause, barra de progresso e tempo decorrido/duração.
+- Ao escolher outra música, o player troca a faixa. A reprodução começa somente após uma ação da visitante.
+- Se um vídeo do casal for iniciado, a música é pausada para evitar sons sobrepostos.
+- Foram mantidas as oito cartinhas e os dois vídeos anteriores.
+
+Como testar
+1. Extraia o ZIP inteiro, mantendo a estrutura das pastas.
+2. Abra a pasta extraída no Visual Studio Code.
+3. Inicie um servidor local (por exemplo, Live Server) e abra index.html.
+4. Na seção “Músicas”, toque em qualquer faixa. Ela deve tocar no próprio site, sem abrir o YouTube.
+5. Para testar no celular, publique em um endereço HTTPS ou use um servidor local na mesma rede.
+
+Importante sobre a publicação das músicas
+Os MP3 foram incluídos no pacote conforme enviados para este projeto. As faixas comerciais podem ter direitos autorais. Antes de publicar os MP3 no GitHub Pages ou em qualquer site acessível publicamente, confirme que você tem autorização/licença para disponibilizá-los dessa forma. Para uma publicação pública sem essa autorização, use uma alternativa licenciada ou um player de uma plataforma autorizada. O site contém fotos e vídeos pessoais e não tem senha; qualquer pessoa com o endereço poderá acessá-los.
+
+Os arquivos de áudio são carregados somente quando uma música é escolhida. Isso evita baixar todas as faixas assim que a página abre.
